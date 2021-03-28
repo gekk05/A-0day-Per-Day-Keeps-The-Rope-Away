@@ -19,6 +19,6 @@
 
 ### WeBid 1.2.2
 
-* Reflected XSS within *install.php*
-* Authenticated file upload -> RCE within *logo_upload.php* 
-* Unauthenticated SQL injection within *adsearch.php* (category parameter)
+* Reflected XSS within *install.php* [3/28/2021]
+* Authenticated file upload -> RCE within *logo_upload.php* [3/28/2021]
+* Unauthenticated SQL injection within *adsearch.php* (category parameter) [3/28/2021]
