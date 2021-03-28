@@ -4,7 +4,7 @@
 
 **Start date: 3/28/2021**
 
-**0day count: 2**
+**0day count: 3**
 
 **End date: ??**
 
@@ -21,3 +21,4 @@
 
 * Reflected XSS within *install.php*
 * Authenticated file upload -> RCE within *logo_upload.php* 
+* Unauthenticated SQL injection within *adsearch.php* (category parameter)
