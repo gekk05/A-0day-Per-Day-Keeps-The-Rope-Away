@@ -1,2 +1,23 @@
-# A-0day-Per-Day-Keeps-The-Rope-Away-
-A 0day, every day
+# A Zero Day Per Day Keeps The Rope Away
+
+## Status 
+
+**Start date: 3/28/2021**
+
+**0day count: 2**
+
+**End date: ??**
+
+## Goal 
+
+* Find a "0day" every day, no matter how impactful the findings are. Everything ranging from trivial open redirects to code execution will be reported. All findings will be responsibly disclosed.
+* Have fun
+* Learn, stay current
+
+
+<h1> Findings </h1>
+
+### WeBid 1.2.2
+
+* Reflected XSS within *install.php*
+* Authenticated file upload -> RCE within *logo_upload.php* 
